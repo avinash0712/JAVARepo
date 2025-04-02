@@ -1,4 +1,6 @@
+
 import java.util.Scanner;
+
 
 public class Strings {
 
@@ -29,5 +31,21 @@ public class Strings {
         }else{
             System.out.println("First name and middle name are different :( ");
         }
+
+        //substring of a string
+        System.out.println("Nick name :" + firstname.substring(0,3));
+
+        //parseInt method of integer class
+        try{
+            int num = Integer.parseInt(firstname);
+            System.out.println(num);
+        }catch(NumberFormatException e){
+            System.out.println("first name does not contain number or it is mixer of number and char");
+        }
+
+        //toString method of String class
+        int num = 1234567890;
+        String str = Integer.toString(num);
+        System.out.println(str.getClass());
     }
 }
