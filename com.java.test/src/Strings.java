@@ -6,7 +6,7 @@ public class Strings {
 
     public static void main(String[] args) {
 
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the first name : ");
         // String firstname = sc.next();
         // System.out.println("Enter the middle name : ");
@@ -48,21 +48,48 @@ public class Strings {
         // String str = Integer.toString(num);
         // System.out.println(str.getClass());
 
-        //ALWAYS REMEMBER : Java Strings are Immutable.
+        // //ALWAYS REMEMBER : Java Strings are Immutable.
 
-        // problem 1 : Take an array of Strings input from the user & find the cumulative (combined) length of all those strings.
+        // // problem 1 : Take an array of Strings input from the user & find the cumulative (combined) length of all those strings.
 
-        Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-        String array[] = new String[size];
-        int totLength = 0;
+        // int size = sc.nextInt();
+        // String array[] = new String[size];
+        // int totLength = 0;
 
-        for(int i=0;i<size;i++){
-            array[i] = sc.next();
-            totLength += array[i].length();
+        // for(int i=0;i<size;i++){
+        //     array[i] = sc.next();
+        //     totLength += array[i].length();
+        // }
+
+        // System.out.println(totLength);
+
+        // problem 2 : Input a string from the user. Create a new string called ‘result’ in which you will replace the letter ‘e’ in the original string with letter ‘i’. 
+
+        // String str1 = sc.nextLine();
+        // String result = "";
+
+        // for(int i=0;i<str1.length();i++){
+        //     if(str1.charAt(i)=='e'){
+        //         result += 'i';
+        //     }else{
+        //         result += str1.charAt(i);
+        //     }
+        // }
+        // System.out.println("Original string: "+str1+ "  String after replacing letter e with i: "+result);
+
+        // problem 3 : Input an email from the user. You have to create a username from the email by deleting the part that comes after ‘@’. Display that username to the user.
+
+        System.out.println("Enter your email: ");
+        String email = sc.next();
+        String username = "";
+
+        for (int i = 0; i < email.length(); i++) {
+            if(email.charAt(i)=='@'){
+                break;
+            }else{
+                username += email.charAt(i);
+            }
         }
-
-        System.out.println(totLength);
-
+        System.out.println("Username is: "+username);
     }
 }
