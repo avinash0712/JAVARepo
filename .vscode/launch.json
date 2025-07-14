@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LL",
+            "request": "launch",
+            "mainClass": "LL",
+            "projectName": "Java_e718b1d9"
+        },
+        {
+            "type": "java",
             "name": "Arraylist",
             "request": "launch",
             "mainClass": "Arraylist",
