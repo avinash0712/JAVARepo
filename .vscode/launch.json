@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "Java_e718b1d9"
+        },
+        {
+            "type": "java",
+            "name": "OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "Java_e718b1d9"
+        },
+        {
+            "type": "java",
+            "name": "Quicksort",
+            "request": "launch",
+            "mainClass": "Quicksort",
+            "projectName": "Java_e718b1d9"
+        },
+        {
+            "type": "java",
+            "name": "Mergesort",
+            "request": "launch",
+            "mainClass": "Mergesort",
+            "projectName": "Java_e718b1d9"
+        },
+        {
+            "type": "java",
+            "name": "Backtracking",
+            "request": "launch",
+            "mainClass": "Backtracking",
+            "projectName": "Java_e718b1d9"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Java_e718b1d9"
+        },
+        {
+            "type": "java",
             "name": "RecursionAdvance",
             "request": "launch",
             "mainClass": "RecursionAdvance",
